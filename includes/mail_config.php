@@ -9,6 +9,6 @@ return [
     'from_email' => getenv('SMTP_FROM') ?: 'unisportsupport@gmail.com',
     'from_name' => 'UniSport – UTeM Sports Centre',
 
-    'app_url' => getenv('APP_URL') ?: 'http://localhost/Unisport',
+    'app_url' => getenv('APP_URL') ?: 'http://localhost/UniSport',
     'dev_mode' => false,
 ];
